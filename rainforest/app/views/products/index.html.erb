@@ -3,5 +3,5 @@
 
 <% @products.each do |product| %>
 	<p><%= product.name %>, <%= product.description %></p>
-	<%= product.price_in_cents %>
+	<%= product.formatted_price %>
 <% end %>
