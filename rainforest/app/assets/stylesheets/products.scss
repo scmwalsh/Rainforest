@@ -1,3 +1,51 @@
 // Place all the styles related to the products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  color: black;
+  font-weight: bold;
+  background-color: slategrey;
+
+  span {
+    text-transform: uppercase;
+  }
+}
+
+
+body {
+    text-align: center;
+    // background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdJTFqO8y4_Kyru95wrJyWwJa_hTiLWF0qCnU5p0JhHIQyMNYz");
+	background-repeat: no-repeat;
+
+}
+
+.userinfo {
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    bottom: 0;
+}
+
+.topbar {
+  top: 0;
+  background-image: url("http://www.wpimg.com/pk/header/rainforest_header.jpg");
+  height: 150px;
+  repeat: none;
+}
+
+h3 {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 5px;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
